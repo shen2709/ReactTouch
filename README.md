@@ -24,20 +24,23 @@ ReactTouch is a revolutionary Magisk module specifically designed to improve the
   - touch.distance.calibration area
   - touch.orientation.calibration=interpolated
   - touch.size.calibration=geometric
-  - windowsmgr.max_events_per_sec=120
-  - ro.max.fling_velocity=12000
-  - ro.min.fling_velocity=8000
+  - windowsmgr.max_events_per_sec=600
+  - ro.max.fling_velocity=25000
+  - ro.min.fling_velocity=9000
+  - view.scroll_friction=0.001
 - added new prop
   - ro.min_pointer_dur 8
   - touch.toolSize.areaScale=22
   - touch.toolSize.isSummed=0
   - TapDragInterval=0.1ms
   - persist.vendor.qti.inputopts.enable=true
-  - persist.vendor.qti.inputopts.movetouchslop=0.1
+  - persist.vendor.qti.inputopts.movetouchslop=0.05
   - persist.dev.pm.dyn_samplingrate=1
   - persist.pm.on_fire=1
   - QuietInterval=0.1ms
   - SurfaceOrientation=0
+  - touch.deviceType=touchScreen
+  - touch.pressure.calibration=amplitude
 
 ### v1.1
 - Change TapSlop 1px1 For High Responsive
